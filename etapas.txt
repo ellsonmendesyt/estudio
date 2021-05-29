@@ -1,0 +1,28 @@
+INSTALA O SEQUELIZE E DEPENDENCIAS
+npm install sequelize sequelize-cli mysql2
+
+
+CRIA O PROJETO 
+sequelize init 
+
+
+CRIA O MODEL
+
+CRIA A MIGRATION
+  
+sequelize: migrateion:create --name create_tweets_table
+
+
+
+
+VER O STATUS DA MIGRATION
+sequelize db:migration:status
+
+
+
+RODAR A MIGRATION
+sequelize db:migrate 
+
+
+
+
